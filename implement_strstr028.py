@@ -21,6 +21,8 @@
 链接：https://leetcode-cn.com/problems/implement-strstr
 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 '''
+
+
 class Solution:
     '''
     暴力破解
@@ -42,10 +44,17 @@ class Solution:
         else:
             return -1
 
+        '''
+        解法2：kmp算法
+        https://blog.csdn.net/x__1998/article/details/79951598
+        '''
+
+
+
 
 
 haystack = "hello"
 needle = "ll"
 
 strStr = Solution()
-print(strStr.strStr(haystack,needle))
+print(strStr.strStr(haystack, needle))
